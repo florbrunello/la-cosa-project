@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    margin: 5px;
+    flex-grow: 2;
+    display: flex;
+    align-items: initial;
+    justify-content: space-evenly;
+}
+
+.cardDeckContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardDeck {
+    margin-right: 10px;
+    width: 150px;
+    height: 200px;
+    /* margin: 10px; */
+    transition: 0.2s;
+}
+
+.cardDeck:hover {
+    transform: scale(0.95);
+    cursor: pointer; 
+}
+.cardDeck:active {
+    transform: scale(0.90);
+}
+
+.cardDeck img {
+    width: 150px;
+    height: 200px;
+    /* margin: 10px; */
+}
+
+.img2 {
+    width: 150px;
+    height: 200px;
+    /* margin: 10px; */
+}
+.img2:active{
+    box-shadow: -0.1rem 0 1rem #ff0000;
+}
+
+.messageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span {
+    color: white;
+}
+
+.trash {
+    transform: rotate(0) scale(1.2 , 1);
+    cursor: pointer;
+    transition: transform 0.35s ease-out;
+}
+
+.arrowRight {
+    width: 40px;
+    height: 50px;
+    transform: rotate(90deg);
+    margin-right: 3%;
+    transition: 0.4s;
+    margin-top: 60px;
+}
+
+.arrowLeft {
+    width: 40px;
+    height: 50px;
+    transform: rotate(270deg);
+    margin-right: 3%;
+    transition: 0.4s;
+    margin-top: 60px;
+}
+
+.role {
+    
+}

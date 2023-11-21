@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* CSS */
+.button24 {
+  background: #942d29;
+  border: 1px solid #942d29;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
+  font-weight: 400;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 3px auto;
+  width: 80%;
+}
+
+.button24:hover,
+.button24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #942d29;
+}
+
+.button-24:active {
+  opacity: .5;
+}

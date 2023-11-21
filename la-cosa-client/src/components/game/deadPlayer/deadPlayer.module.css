@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+.fade{
+    background-color: #6d211e5d;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.5vh solid  #5f1d1b69;
+    justify-content: center; 
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%, -50%);
+    height:200px;
+    width: 550px;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+}

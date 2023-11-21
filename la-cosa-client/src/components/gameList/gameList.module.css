@@ -1,0 +1,35 @@
+.body{
+    margin-left: 25%;
+    margin-right: 27%;
+}
+
+.text{
+    font-size: 150%;
+    margin-left: 10%;   
+}
+
+.body tr td{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.body tbody{
+    background-color: #49070598;
+}
+
+.body th{
+    background-color: #33333353;
+    padding: 15px;
+}
+
+.name {
+    width: 200px;
+}
+
+.menuButton {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 2%; 
+}

@@ -1,0 +1,105 @@
+.general{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topbox{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+}
+.bottombox{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.instruction{
+    margin: 5px;
+    flex-grow: 1;
+}
+.table{
+    margin: 5px;
+    flex-grow: 2;
+}
+
+.buttonsLogsContainer{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 350px;
+
+}
+
+.deckHandContainer{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 0px;
+}
+
+.buttons{
+    margin: 5px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.logs{
+    margin: 5px;
+    flex-grow: 2;
+    display: flex;
+    align-items:end;
+}
+.deck{
+    margin: 5px;
+    flex-grow: 2;
+    display: flex;
+    align-items: initial;
+    justify-content:space-evenly;
+    max-height: 200px;
+}
+.hand{
+    margin: 5px;
+    flex-grow: 2;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.chatContainer{
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    max-width: 380px;
+}
+
+.title{
+    display: flex;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-weight: bold;
+    margin-left: 47%; 
+}
+
+.span{
+    display: flex;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vh;
+    margin-left: 46.5%;
+}
+
