@@ -1,0 +1,15 @@
+black
+pytest
+pytest-cov
+httpx
+fastapi
+pydantic
+pony
+uvicorn
+pydantic-settings
+httpx
+socketio
+python-socketio
+fastapi-socketio
+websockets
+pytest-asyncio
